@@ -12,3 +12,4 @@ C:\Users\user\Desktop\Methods\Methods\Methods\obj\Debug\net8.0\refint\Methods.dl
 C:\Users\user\Desktop\Methods\Methods\Methods\obj\Debug\net8.0\Methods.pdb
 C:\Users\user\Desktop\Methods\Methods\Methods\obj\Debug\net8.0\Methods.genruntimeconfig.cache
 C:\Users\user\Desktop\Methods\Methods\Methods\obj\Debug\net8.0\ref\Methods.dll
+C:\Users\user\Desktop\Methods\Methods\Methods\obj\Debug\net8.0\Methods.sourcelink.json
