@@ -56,26 +56,53 @@
 //}
 
 
+//using System;
+//class Program
+//{
+//    static void Main()
+//    {
+//        Console.WriteLine("ededi daxil edin:");
+//        int eded = Convert.ToInt32(Console.ReadLine());
+//        int netice = FaktoriyalTap(eded);
+//        Console.WriteLine("daxil etdiyiniz ededin faktoriyali:");
+//        Console.WriteLine(netice);
+//    }
+//    static int FaktoriyalTap(int eded)
+//    {
+//        int hasil = 1;
+
+//        for (int i = 1; i <= eded; i++)
+//        {
+//            hasil *= i;
+
+//        }
+//        return hasil;
+//    }
+//}
+
+
+
 using System;
 class Program
 {
     static void Main()
     {
-        Console.WriteLine("ededi daxil edin:");
-        int eded = Convert.ToInt32(Console.ReadLine());
-        int netice = FaktoriyalTap(eded);
-        Console.WriteLine("daxil etdiyiniz ededin faktoriyali:");
-        Console.WriteLine(netice);
+        Console.WriteLine("metni daxil edin:");
+        string text = Console.ReadLine();
+        string result = BosluqsuzMetn(text);
+        Console.WriteLine("daxil etdiyiniz metnin bosluqlari aradan qaldirildi:");
+        Console.WriteLine(result);
     }
-    static int FaktoriyalTap(int eded)
+    static string BosluqsuzMetn(string text)
     {
-        int hasil = 1;
-
-        for (int i = 1; i <= eded; i++)
+        string result = "";
+        for (int i = 0; i < text.Length; i++)
         {
-            hasil *= i;
-
+            if (text[i]!=' ') 
+            {
+                result += text[i];
+            }       
         }
-        return hasil;
+        return result;
     }
 }
